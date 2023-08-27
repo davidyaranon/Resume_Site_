@@ -90,7 +90,7 @@ const Tellu: React.FC = () => {
               <a className={context.currPage} href="https://github.com/tellUapp/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
           </div>
           <div className="image-area">
-            <img style={{ borderRadius: '7.5px' }} src={tellULogo} alt="tellU App Logo" />
+            <img style={{ borderRadius: '7.5px' }} draggable={false} src={tellULogo} alt="tellU App Logo" />
           </div>
         </div>
       </div>

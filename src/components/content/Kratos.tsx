@@ -101,8 +101,8 @@ const Kratos = () => {
             </p>
           </div>
           <div className="image-area">
-            <img id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="Kratos Logo" />
-            <img id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="Kratos Logo" />
+            <img draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="Kratos Logo" />
+            <img draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="Kratos Logo" />
           </div>
         </div>
       </div>

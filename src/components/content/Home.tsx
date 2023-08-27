@@ -57,7 +57,7 @@ const Home: React.FC = () => {
             </p>
           </div>
           <div className="image-area">
-            <img src={David} alt="Image of David" />
+            <img src={David} draggable={false} alt="Image of David" />
           </div>
         </div>
 
