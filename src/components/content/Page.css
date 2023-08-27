@@ -1,0 +1,105 @@
+/* Home.css */
+
+.component-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-area {
+  flex: 6;
+  padding-right: 20px;
+}
+
+
+.text-area, .text-area p {
+  display: block;
+}
+
+.image-area {
+  flex: 4;
+}
+
+.image-area img {
+  max-width: 100%;
+  height: auto;
+}
+
+.arrow-button {
+  position: absolute;
+  background-color: transparent; 
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  vertical-align: middle;
+}
+
+.arrow-button:hover {
+  opacity: 0.75;
+  scale: 1.05;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+}
+
+.text-area a.Home:hover {
+  opacity: 0.75;
+  scale: 1.05;
+}
+
+.text-area a.Home {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-area a.Home::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #12a0fa, #662ea3);
+  z-index: -1;
+}
+
+a:visited::after,
+a:hover::after,
+a:active::after {
+  content: none;
+}
+
+@media (max-width: 767px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .text-area,
+  .image-area {
+    flex: none;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 10%;
+  }
+
+  .image-area {
+    text-align: center;
+  }
+
+  .image-area img {
+    max-width: 65%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
