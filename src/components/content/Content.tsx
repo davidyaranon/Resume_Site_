@@ -5,6 +5,7 @@ import Home from './Home';
 import Tellu from './Tellu';
 
 import { useMyContext } from '../../my-context';
+import Kratos from './Kratos';
 
 
 const Content: React.FC = () => {
@@ -27,6 +28,7 @@ const Content: React.FC = () => {
     <div className='main-body'>
       <div className='scroll-container'>
         <Home />
+        <Kratos />
         <Tellu />
       </div>
     </div>

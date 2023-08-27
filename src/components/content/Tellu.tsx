@@ -1,5 +1,10 @@
-import David from '../../assets/david.png';
 import tellULogo from '../../assets/tellU.png';
+import TypescriptLogo from '../../assets/typescript-logo.png';
+import ReactLogo from '../../assets/react-logo.png';
+import SwiftLogo from '../../assets/swift-logo.svg';
+import FirebaseLogo from '../../assets/firebase-logo.svg';
+import CapacitorLogo from '../../assets/capacitorjs-logo.svg';
+
 import { useMyContext } from '../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 
@@ -39,7 +44,7 @@ const Tellu: React.FC = () => {
 
   return (
     <FadeIn delay={1500} transitionDuration={750}>
-      <div ref={pageRef} className="component-container" id='HomeTwo'>
+      <div ref={pageRef} className="component-container" id='tellU'>
         <div className="content-wrapper">
           <div className="text-area">
             <h1>tellU Mobile App</h1>
@@ -49,13 +54,43 @@ const Tellu: React.FC = () => {
               Post about nearby campus events or sightings, or just chat with new friends!
             </p>
             <br />
-            <p><a href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">Visit Site</a>
-            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/tellUapp/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
-
+            <p className='p-title'>Built With:</p>
+            <div className='stack-logos'>
+              <ul>
+                <li>
+                  <a role='button' href='https://react.dev/' target='_blank' rel="noopener noreferrer">
+                    <img alt='React Logo' src={ReactLogo} />
+                  </a>
+                </li>
+                <li>
+                  <a role='button' href='https://firebase.google.com/' target='_blank' rel="noopener noreferrer">
+                    <img alt='Firebase Logo' src={FirebaseLogo} />
+                  </a>
+                </li>
+                <li>
+                  <a role='button' href='https://www.typescriptlang.org/' target='_blank' rel="noopener noreferrer">
+                    <img alt='Typescript Logo' src={TypescriptLogo} />
+                  </a>
+                </li>
+                <li>
+                  <a role='button' href='https://capacitorjs.com/' target='_blank' rel="noopener noreferrer">
+                    <img alt='Capacitor Logo' src={CapacitorLogo} />
+                  </a>
+                </li>
+                <li>
+                  <a role='button' href='https://www.swift.org/' target='_blank' rel="noopener noreferrer">
+                    <img alt='Swift Logo' src={SwiftLogo} />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <br />
+            <p><a className={context.currPage} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">Visit Site</a>
+              &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+              <a className={context.currPage} href="https://github.com/tellUapp/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
           </div>
           <div className="image-area">
-            <img style={{ borderRadius: '7.5px' }} src={tellULogo} alt="Image of David" />
+            <img style={{ borderRadius: '7.5px' }} src={tellULogo} alt="tellU App Logo" />
           </div>
         </div>
       </div>

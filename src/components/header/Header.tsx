@@ -45,7 +45,7 @@ const Header: React.FC = () => {
             <FadeIn delay={500}>
               <div className='logo'>
                 <a role='button' aria-label='David Logo'>
-                  <img src={getLogo()} alt="David logo" draggable={false} onClick={handleMainLogoClick} />
+                  <img role='button' src={getLogo()} alt="David logo" draggable={false} onClick={handleMainLogoClick} />
                 </a>
               </div>
             </FadeIn>

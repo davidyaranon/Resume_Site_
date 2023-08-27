@@ -1,4 +1,21 @@
-/* Home.css */
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-2px);
+  }
+
+  60% {
+    transform: translateY(-1px);
+  }
+}
 
 .component-container {
   height: 100%;
@@ -19,7 +36,8 @@
 }
 
 
-.text-area, .text-area p {
+.text-area,
+.text-area p {
   display: block;
 }
 
@@ -32,9 +50,14 @@
   height: auto;
 }
 
+.image-area img#kratosLogo {
+  scale: 1.075;
+  padding: 10px;
+}
+
 .arrow-button {
   position: absolute;
-  background-color: transparent; 
+  background-color: transparent;
   border: none;
   cursor: pointer;
   z-index: 1;
@@ -74,10 +97,101 @@ h1 {
   z-index: -1;
 }
 
+.text-area a.tellU {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-area a.tellU:hover {
+  opacity: 0.75;
+  scale: 1.05;
+}
+
+.text-area a.tellU::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #61dbfb, #c3f3ff);
+  z-index: -1;
+}
+
+.text-area a.KratosLink {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-area a.KratosLink:hover {
+  opacity: 0.75;
+  scale: 1.05;
+}
+
+.text-area a.KratosLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #741333, #301e1e);
+  z-index: -1;
+}
+
+.text-area a.CPHHA::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #255e11, #a6cb91);
+  z-index: -1;
+}
+
 a:visited::after,
 a:hover::after,
 a:active::after {
   content: none;
+}
+
+.p-title {
+  font-size: 1.05rem;
+}
+
+ul li.task-list {
+  font-size: 0.85rem;
+  line-height: 1.05rem;
+}
+
+.stack-logos {
+  height: 50px;
+}
+
+.stack-logos ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stack-logos img {
+  max-height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.stack-logos li img {
+  transition: transform 0.3s ease-in-out;  /* This will smooth out the bounce effect */
+}
+
+.stack-logos li img:hover {
+  opacity: 0.9;
+  transform: translateY(-5px); /* Moves the image upward by 5 pixels on hover */
 }
 
 @media (max-width: 767px) {
@@ -98,7 +212,7 @@ a:active::after {
   }
 
   .image-area img {
-    max-width: 65%;
+    max-width: 90%;
     height: auto;
     margin: 0 auto;
   }

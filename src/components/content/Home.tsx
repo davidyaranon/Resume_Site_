@@ -42,8 +42,9 @@ const Home: React.FC = () => {
         <div className="content-wrapper">
           <div className="text-area">
             <h1>Hello, I'm David ✋🏽</h1>
+            <br />
             <p>
-              I am currently a Computer Science major at Cal Poly Humboldt. I find myself immersed in the world of React and mobile application development, but enjoy all aspects of software engineering. My goal is to build tangible applications that can influence and help users around the world.
+              I am currently a Computer Science major at <strong>Cal Poly Humboldt</strong>. I find myself immersed in the world of React and mobile application development, but enjoy all aspects of software engineering. My goal is to build tangible applications that can influence and help users around the world.
             </p>
             <br />
             <p>
