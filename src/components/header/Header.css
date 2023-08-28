@@ -55,7 +55,7 @@
   scale: 1.1;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .header {
     position: -webkit-sticky;
     position: sticky;

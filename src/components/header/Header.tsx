@@ -17,7 +17,6 @@ const logos: Record<string, string> = {
 };
 
 const Header: React.FC = () => {
-  console.log('Header');
 
   const context = useMyContext();
 
@@ -28,7 +27,7 @@ const Header: React.FC = () => {
 
   const handleMainLogoClick = (e: React.MouseEvent<HTMLImageElement, MouseEvent>): void => {
     e.preventDefault();
-    const homeSlide: HTMLElement | null = document.getElementById('HomeOne');
+    const homeSlide: HTMLElement | null = document.getElementById('Home');
     homeSlide && homeSlide.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',

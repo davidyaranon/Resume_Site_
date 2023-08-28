@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   min-width: 250px;
-  overflow: hidden;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +10,9 @@
   padding-top: 10vh;
   padding-bottom: 0.5vh;
   justify-content: flex-start;
-  overflow: hidden;
+  /* margin-bottom: 100px; */
 }
+
 
 .scroll-container {
   display: flex;
@@ -29,16 +30,68 @@
   padding-top: 15vh;
 }
 
-.scroll-container > * {
-  border-bottom: 2px solid #ccc
+.scroll-container>#homePage {
+  position: relative;
 }
 
-.scroll-container > *:last-child {
+.scroll-container>#homePage::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #12a0fa, #662ea3);
+}
+
+.scroll-container>#kratosPage {
+  position: relative;
+}
+
+.scroll-container>#kratosPage::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #741333, #291313);
+}
+
+.scroll-container>#telluPage {
+  position: relative;
+}
+
+.scroll-container>#telluPage::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #61dbfb, #c3f3ff);
+}
+
+.scroll-container>#cphhaPage {
+  position: relative;
+}
+
+.scroll-container>#cphhaPage::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #255e11, #a6cb91);
+}
+
+.scroll-container>*:last-child {
   border-bottom: none;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .main-body {
     padding-top: 7.5vh;
     justify-content: flex-start;
@@ -49,28 +102,29 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px),
+(max-width: 1024px) and (orientation: landscape) {
   .scroll-container {
     flex-direction: column;
     overflow-y: auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
-  .scroll-container > * {
+  .scroll-container>* {
     flex: none;
-    scroll-snap-align: unset; 
+    scroll-snap-align: unset;
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
   }
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 768px),
+(max-width: 1024px) and (orientation: landscape) {
   .main-body {
     padding-left: 2.5%;
     padding-right: 2.5%;
-    overflow-y: auto; 
+    overflow-y: auto;
     height: auto;
     min-height: 100vh;
   }

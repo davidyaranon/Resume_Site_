@@ -17,6 +17,41 @@
   }
 }
 
+.next-page-button {
+  opacity: 0; 
+  animation: fadeIn .75s 1.5s forwards;
+  -webkit-animation: fadeIn .75s 1.5s forwards;
+  -moz-animation: fadeIn .75s 1.5s forwards;
+  -o-animation: fadeIn .75s 1.5s forwards;
+  -ms-animation: fadeIn .75s 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 .component-container {
   height: 100%;
   display: flex;
@@ -39,6 +74,7 @@
 .text-area,
 .text-area p {
   display: block;
+  font-size: 0.9rem;
 }
 
 .image-area {
@@ -55,24 +91,10 @@
   padding: 10px;
 }
 
-.arrow-button {
-  position: absolute;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 1;
-  vertical-align: middle;
-}
-
-.arrow-button:hover {
-  opacity: 0.75;
-  scale: 1.05;
-}
-
 h1 {
   padding: 0;
   margin: 0;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .text-area a.Home:hover {
@@ -120,14 +142,18 @@ h1 {
 }
 
 .iframe-wrapper {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   border-radius: 20px;
   transform: translateZ(0px);
   border: 5px solid transparent !important;
 }
+
 
 .text-area a.CPHHA {
   position: relative;
@@ -185,15 +211,115 @@ ul li.task-list {
 }
 
 .stack-logos li img {
-  transition: transform 0.3s ease-in-out;  /* This will smooth out the bounce effect */
+  transition: transform 0.3s ease-in-out;
 }
 
 .stack-logos li img:hover {
   opacity: 0.9;
-  transform: translateY(-5px); /* Moves the image upward by 5 pixels on hover */
+  transform: translateY(-5px);
+}
+
+.next-page-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+  padding-right: 15%;
+}
+
+.next-page-button#kratos-arrow-buttons-container {
+  transform: translate(0%, -100%);
+}
+
+.next-page-button#tellu-arrow-buttons-container {
+  transform: translate(0%, -100%);
+}
+
+.next-page-button#cphha-arrow-buttons-container {
+  transform: translate(0%, -100%);
+}
+
+.next-page-button button {
+  background-color: #662ea3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.next-page-button button.home-arrow-buttons {
+  background-color: #12a0fa;
+}
+
+.next-page-button button.home-arrow-buttons:hover {
+  background-color: #662ea3;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2.5px);
+}
+
+.next-page-button button.kratos-arrow-buttons {
+  background-color: #741333;
+}
+
+.next-page-button button.kratos-arrow-buttons:hover {
+  background-color: #291313;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2.5px);
+}
+
+.next-page-button button.cphha-arrow-buttons {
+  background-color: #255e11;
+}
+
+.next-page-button button.cphha-arrow-buttons:hover {
+  background-color: #a6cb91;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2.5px);
+}
+
+.next-page-button button.tellu-arrow-buttons {
+  background-color: #1cc9f4;
+}
+
+.next-page-button button.tellu-arrow-buttons:hover {
+  background-color: #76dbf4;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2.5px);
+}
+
+@media (max-width: 1024px) {
+  .next-page-button button {
+    display: none;
+  }
+
+  .iframe-wrapper {
+    display: block;
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: unset;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    transform: none;
+    border: none;
+  }
+
+  .iframe-wrapper#cphha-iframe {
+    height: 45vh;
+  }
 }
 
 @media (max-width: 767px) {
+
   .content-wrapper {
     flex-direction: column;
   }

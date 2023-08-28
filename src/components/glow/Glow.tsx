@@ -21,16 +21,16 @@ const Glow: React.FC = () => {
 
   const getColor = (): string => {
     if(context.currPage === 'Home'){
-      return 'rgba(48, 35, 99, 0.125)';
+      return 'rgba(48, 35, 99, 0.15)';
     }
     if(context.currPage === 'Kratos') {
-      return 'rgba(116, 19, 51, 0.075)';
+      return 'rgba(116, 19, 51, 0.10)';
     }
     if(context.currPage === 'CPHHA') {
-      return 'rgba(37, 94, 17, 0.075)';
+      return 'rgba(37, 94, 17, 0.10)';
     }
     if(context.currPage === 'tellU') {
-      return 'rgb(97, 219, 251, 0.025)';
+      return 'rgb(97, 219, 251, 0.05)';
     }
     return 'rgba(41, 59, 92, 0.10)';
   }
