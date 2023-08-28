@@ -1,11 +1,11 @@
-import tellULogo from '../../assets/tellU.png';
-import TypescriptLogo from '../../assets/typescript-logo.png';
-import ReactLogo from '../../assets/react-logo.png';
-import SwiftLogo from '../../assets/swift-logo.svg';
-import FirebaseLogo from '../../assets/firebase-logo.svg';
-import CapacitorLogo from '../../assets/capacitorjs-logo.svg';
+import tellULogo from '../../../assets/tellU.png';
+import TypescriptLogo from '../../../assets/typescript-logo.png';
+import ReactLogo from '../../../assets/react-logo.png';
+import SwiftLogo from '../../../assets/swift-logo.svg';
+import FirebaseLogo from '../../../assets/firebase-logo.svg';
+import CapacitorLogo from '../../../assets/capacitorjs-logo.svg';
 
-import { useMyContext } from '../../my-context';
+import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 
 import './Page.css';
@@ -19,6 +19,7 @@ const Tellu: React.FC = () => {
 
   useEffect(() => {
     const handleIntersection = (entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
+      observer;
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           context.setCurrPage('tellU');
@@ -52,6 +53,11 @@ const Tellu: React.FC = () => {
               tellU is a social media app for university students, available on iOS and Android.
               The tellU app puts students into chat rooms with their fellow university students.
               Post about nearby campus events or sightings, or just chat with new friends!
+            </p>
+            <br />
+            <p>tellU uses a Firebase/Firestore backend and functions as any other social media app would, with features 
+              like account creation/deletion, direct chat messaging, text and image posting functionalities, 
+              profile customization, and more!
             </p>
             <br />
             <p className='p-title'>Built With:</p>

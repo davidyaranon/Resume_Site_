@@ -26,6 +26,9 @@ const Glow: React.FC = () => {
     if(context.currPage === 'Kratos') {
       return 'rgba(116, 19, 51, 0.075)';
     }
+    if(context.currPage === 'CPHHA') {
+      return 'rgba(37, 94, 17, 0.075)';
+    }
     if(context.currPage === 'tellU') {
       return 'rgb(97, 219, 251, 0.025)';
     }

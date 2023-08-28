@@ -1,5 +1,5 @@
-import David from '../../assets/david.png';
-import { useMyContext } from '../../my-context';
+import David from '../../../assets/david.png';
+import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 
 import './Page.css';
@@ -13,6 +13,7 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     const handleIntersection = (entries: IntersectionObserverEntry[], observer: IntersectionObserver) => {
+      observer;
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           context.setCurrPage('Home');
@@ -38,7 +39,7 @@ const Home: React.FC = () => {
 
   return (
     <FadeIn delay={1500} transitionDuration={750}>
-      <div ref={pageRef} className="component-container" id='HomeOne'>
+      <div ref={pageRef} className="component-container" id='Home'>
         <div className="content-wrapper">
           <div className="text-area">
             <h1>Hello, I'm David ✋🏽</h1>
