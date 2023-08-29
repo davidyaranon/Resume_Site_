@@ -13,7 +13,7 @@ footer p{
   font-size: 15px;
 }
 
-@media (max-width: 770px)  {
+@media (max-width: 1024px)  {
   footer {
     text-align: center;
     padding-right: 0;
