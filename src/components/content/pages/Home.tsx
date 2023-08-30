@@ -41,7 +41,7 @@ const Home: React.FC = () => {
               </p>
             </div>
             <div className="image-area">
-              <div className="iframe-wrapper">
+              <div className="iframe-wrapper" id="home-page-iframe-wrapper">
                 <img src={David} draggable={false} alt="Image of David" />
               </div>
             </div>

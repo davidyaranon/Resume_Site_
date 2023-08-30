@@ -31,6 +31,7 @@ const Tellu: React.FC = () => {
           <div className="content-wrapper">
             <div className="text-area">
               <h1>tellU Mobile App</h1>
+              <br />
               <p>
                 tellU is a social media app for university students, available on iOS and Android.
                 The tellU app puts students into chat rooms with their fellow university students.
@@ -78,7 +79,7 @@ const Tellu: React.FC = () => {
                 <a className={'tellU'} href="https://github.com/tellUapp/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
             </div>
             <div className="image-area">
-              <div className="iframe-wrapper">
+              <div className="iframe-wrapper" id="tellu-page-iframe-wrapper">
                 <img style={{ borderRadius: '7.5px' }} draggable={false} src={tellULogo} alt="tellU App Logo" />
               </div>
             </div>

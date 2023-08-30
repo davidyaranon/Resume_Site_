@@ -115,8 +115,7 @@
   scale: 1.075;
   padding-left: 10px;
   padding-right: 10px;
-  transform: translateY(-25px);
-
+  transform: translateY(-50px);
 }
 
 h1 {
@@ -176,10 +175,14 @@ h1 {
   align-items: center;
   overflow: hidden;
   width: 100%;
-  height: 40vh;
+  height: 300px;
   border-radius: 20px;
   transform: translateZ(0px);
   border: 5px solid transparent !important;
+}
+
+.iframe-wrapper#kratos-page-iframe-wrapper {
+  overflow: visible;
 }
 
 
@@ -295,12 +298,13 @@ ul li.task-list {
 
 .next-page-button button.kratos-arrow-buttons {
   background-color: #741333;
+  transform: translateY(-25px);
 }
 
 .next-page-button button.kratos-arrow-buttons:hover {
   background-color: #291313;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
-  transform: translateY(-2.5px);
+  transform: translateY(-30px);
 }
 
 .next-page-button button.cphha-arrow-buttons {
@@ -355,8 +359,8 @@ ul li.task-list {
   .text-area,
   .image-area {
     flex: none;
-    width: 100%;
-    padding-right: 0;
+    width: calc(100% - 30px);
+    /* padding-right: 0; */
     padding-bottom: 10%;
   }
 
@@ -365,8 +369,15 @@ ul li.task-list {
   }
 
   .image-area img {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     margin: 0 auto;
+  }
+
+  .image-area img#kratosLogo {
+    scale: 1.075;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translateY(0px);
   }
 }

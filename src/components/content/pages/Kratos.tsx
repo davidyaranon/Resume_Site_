@@ -33,6 +33,7 @@ const Kratos = () => {
           <div className="content-wrapper">
             <div className="text-area">
               <h1>Kratos Defense & Security Solutions</h1>
+              <br />
               <p>
                 One of my current positions is at Kratos Defense as a software engineering intern. Some of my tasks include
                 <br /><br />
@@ -91,7 +92,7 @@ const Kratos = () => {
             </p> */}
             </div>
             <div className="image-area">
-              <div className="iframe-wrapper">
+              <div className="iframe-wrapper" id="kratos-page-iframe-wrapper">
                 <img draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="Kratos Logo" />
                 <div style={{ height: "5vh" }} />
                 <img draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="Kratos Logo" />
