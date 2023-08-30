@@ -110,7 +110,7 @@
   .scroll-container {
     flex-direction: column;
     overflow-y: auto;
-    /* overflow-x: hidden; */
+    overflow-x: auto;
   }
 
   .scroll-container>* {

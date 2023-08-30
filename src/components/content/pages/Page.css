@@ -18,7 +18,7 @@
 }
 
 .next-page-button {
-  opacity: 0; 
+  opacity: 0;
   animation: fadeIn .75s 1.5s forwards;
   -webkit-animation: fadeIn .75s 1.5s forwards;
   -moz-animation: fadeIn .75s 1.5s forwards;
@@ -27,28 +27,53 @@
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 
@@ -88,7 +113,10 @@
 
 .image-area img#kratosLogo {
   scale: 1.075;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateY(-25px);
+
 }
 
 h1 {
