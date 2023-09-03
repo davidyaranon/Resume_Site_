@@ -74,7 +74,9 @@ const Tellu: React.FC = () => {
                 </ul>
               </div>
               <br />
-              <p><a className={'tellU'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">Visit Site</a>
+              <p><a className={'tellU'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">About Site</a>
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <a className={'tellU'} href="https://apps.apple.com/us/app/tellu/id6443764288?ign-itscg=30200&ign-itsct=apps_box_link" target='_blank' rel="noopener noreferrer">iOS App Store Listing</a>
                 &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                 <a className={'tellU'} href="https://github.com/tellUapp/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
             </div>
