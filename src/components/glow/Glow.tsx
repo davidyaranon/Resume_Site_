@@ -32,6 +32,9 @@ const Glow: React.FC = () => {
     if(context.currPage === 'tellU') {
       return 'rgb(97, 219, 251, 0.05)';
     }
+    if(context.currPage === 'HumboldtHill') {
+      return 'rgba(75, 89, 14, 0.125)';
+    }
     return 'rgba(41, 59, 92, 0.10)';
   }
 

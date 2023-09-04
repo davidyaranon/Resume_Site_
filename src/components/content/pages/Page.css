@@ -118,6 +118,13 @@
   transform: translateY(-50px);
 }
 
+.image-area img#humboldtHillLogo {
+  scale: 1.125;
+  padding-left: 25px;
+  padding-right: 10px;
+  transform: translateY(-25px);
+}
+
 h1 {
   padding: 0;
   margin: 0;
@@ -168,6 +175,28 @@ h1 {
   z-index: -1;
 }
 
+.text-area a.HumboldtHill {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-area a.HumboldtHill:hover {
+  opacity: 0.75;
+  scale: 1.05;
+}
+
+.text-area a.HumboldtHill::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #4b590e, #98a120);
+  z-index: -1;
+}
+
 .iframe-wrapper {
   display: flex;
   flex-direction: column;
@@ -182,6 +211,10 @@ h1 {
 }
 
 .iframe-wrapper#kratos-page-iframe-wrapper {
+  overflow: visible;
+}
+
+.iframe-wrapper#humboldt-hill-page-iframe-wrapper {
   overflow: visible;
 }
 
@@ -265,7 +298,11 @@ ul li.task-list {
 }
 
 .next-page-button#tellu-arrow-buttons-container {
-  transform: translate(0%, -100%);
+  transform: translate(0%, -125%);
+}
+
+.next-page-button#humboldt-hill-arrow-buttons-container {
+  transform: translate(0%, -125%);
 }
 
 .next-page-button#cphha-arrow-buttons-container {
@@ -327,6 +364,17 @@ ul li.task-list {
   transform: translateY(-2.5px);
 }
 
+.next-page-button button.humboldt-hill-arrow-buttons {
+  background-color: #4b590e;
+}
+
+.next-page-button button.humboldt-hill-arrow-buttons:hover {
+  background-color: #98a120;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2.5px);
+}
+
+
 @media (max-width: 1024px) {
   .next-page-button button {
     display: none;
@@ -378,6 +426,10 @@ ul li.task-list {
     scale: 1.075;
     padding-left: 10px;
     padding-right: 10px;
+    transform: translateY(0px);
+  }
+
+  .image-area img#humboldtHillLogo {
     transform: translateY(0px);
   }
 }

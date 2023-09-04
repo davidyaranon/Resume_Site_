@@ -75,6 +75,20 @@
   background: linear-gradient(to right, #61dbfb, #c3f3ff);
 }
 
+.scroll-container>#HumboldtHillPage {
+  position: relative;
+}
+
+.scroll-container>#HumboldtHillPage::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #4b590e, #98a120);
+}
+
 .scroll-container>#cphhaPage {
   position: relative;
 }

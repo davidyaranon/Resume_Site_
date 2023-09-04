@@ -1,11 +1,10 @@
 import './Content.css';
 
 import Home from './pages/Home';
-import Tellu from './pages/Tellu';
-
-// import { useMyContext } from '../../my-context';
 import Kratos from './pages/Kratos';
 import CPHHA from './pages/CPHHA';
+import Tellu from './pages/Tellu';
+import HumboldtHill from './pages/HumboldtHill';
 
 const Content: React.FC = () => {
 
@@ -26,6 +25,10 @@ const Content: React.FC = () => {
         <br />
         <div id='telluPage'>
           <Tellu />
+        </div>
+        <br />
+        <div id='HumboldtHillPage'>
+          <HumboldtHill />
         </div>
         <br />
       </div>
