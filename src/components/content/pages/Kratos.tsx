@@ -93,9 +93,9 @@ const Kratos = () => {
             </div>
             <div className="image-area">
               <div className="iframe-wrapper" id="kratos-page-iframe-wrapper">
-                <img draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="Kratos Logo" />
+                <img className='small-width' draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="Kratos Logo" />
                 <div style={{ height: "5vh" }} />
-                <img draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="Kratos Logo" />
+                <img className='small-width' draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="Kratos Logo" />
               </div>
             </div>
           </div>

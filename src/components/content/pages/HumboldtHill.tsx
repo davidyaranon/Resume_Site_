@@ -9,6 +9,7 @@ import Cplusplus from '../../../assets/c++-logo.png';
 import HillLogo from '../../../assets/hill-logo.png';
 import Crow from '../../../assets/crow_logo.png';
 import ViteLogo from '../../../assets/vite-logo.png';
+import AWSLogo from '../../../assets/aws-loho.png';
 
 import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
@@ -76,6 +77,11 @@ const HumboldtHill: React.FC = () => {
                       <img alt='Vite Logo' src={ViteLogo} />
                     </a>
                   </li>
+                  <li>
+                    <a role='button' href='https://aws.amazon.com/' target='_blank' rel="noopener noreferrer">
+                      <img alt='Amazon AWS Logo' src={AWSLogo} />
+                    </a>
+                  </li>
                 </ul>
               </div>
               <br />
@@ -85,7 +91,7 @@ const HumboldtHill: React.FC = () => {
             </div>
             <div className="image-area">
               <div className="iframe-wrapper" id="humboldt-hill-page-iframe-wrapper">
-                <img id='humboldtHillLogo' style={{ borderRadius: '7.5px' }} draggable={false} src={HillLogo} alt="Humboldt Hill Country Club Logo" />
+                <img className='small-width' id='humboldtHillLogo' style={{ borderRadius: '7.5px' }} draggable={false} src={HillLogo} alt="Humboldt Hill Country Club Logo" />
               </div>
             </div>
           </div>

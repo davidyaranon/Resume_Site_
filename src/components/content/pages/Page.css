@@ -111,6 +111,11 @@
   height: auto;
 }
 
+.image-area img.small-width {
+  max-width: 92.5%;
+  height: auto;
+}
+
 .image-area img#kratosLogo {
   scale: 1.075;
   padding-left: 10px;
