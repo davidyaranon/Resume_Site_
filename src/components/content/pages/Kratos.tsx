@@ -75,13 +75,13 @@ const Kratos = () => {
                     </a>
                   </li>
                   <li>
-                    <a role='button' href='https://learn.microsoft.com/en-us/powershell/' target='_blank' rel="noopener noreferrer">
-                      <img alt='Powershell Logo' src={Powershell_Logo} />
+                    <a role='button' href='https://bitbucket.org/product' target='_blank' rel="noopener noreferrer">
+                      <img alt='Bitbucket Logo' src={Bitbucket_Logo} />
                     </a>
                   </li>
                   <li>
-                    <a role='button' href='https://bitbucket.org/product' target='_blank' rel="noopener noreferrer">
-                      <img alt='Bitbucket Logo' src={Bitbucket_Logo} />
+                    <a role='button' href='https://learn.microsoft.com/en-us/powershell/' target='_blank' rel="noopener noreferrer">
+                      <img alt='Powershell Logo' src={Powershell_Logo} />
                     </a>
                   </li>
                 </ul>
