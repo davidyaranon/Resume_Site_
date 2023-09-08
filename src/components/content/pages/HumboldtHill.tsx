@@ -9,7 +9,6 @@ import Cplusplus from '../../../assets/c++-logo.png';
 import HillLogo from '../../../assets/hill-logo.png';
 import Crow from '../../../assets/crow_logo.png';
 import ViteLogo from '../../../assets/vite-logo.png';
-import AWSLogo from '../../../assets/aws-loho.png';
 
 import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
@@ -77,17 +76,13 @@ const HumboldtHill: React.FC = () => {
                       <img alt='Vite Logo' src={ViteLogo} />
                     </a>
                   </li>
-                  <li>
-                    <a role='button' href='https://aws.amazon.com/' target='_blank' rel="noopener noreferrer">
-                      <img alt='Amazon AWS Logo' src={AWSLogo} />
-                    </a>
-                  </li>
                 </ul>
               </div>
               <br />
-              <p><a className={'HumboldtHill'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">View Site</a>
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                <a className={'HumboldtHill'} href="https://github.com/tellUapp/Humboldt_Hill_Country_Club/tree/master" target='_blank' rel="noopener noreferrer">Github</a></p>
+              <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
+                <p><a className={'HumboldtHill'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">View Site</a></p>
+                <p><a className={'HumboldtHill'} href="https://github.com/tellUapp/Humboldt_Hill_Country_Club/tree/master" target='_blank' rel="noopener noreferrer">Github</a></p>
+              </div>
             </div>
             <div className="image-area">
               <div className="iframe-wrapper" id="humboldt-hill-page-iframe-wrapper">

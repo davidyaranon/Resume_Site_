@@ -76,11 +76,10 @@ const CPHHA: React.FC = () => {
                 </ul>
               </div>
               <br />
-              <p>
-                <a className={'CPHHA'} href="https://nrs-projects.humboldt.edu/~ab632/src/html/" target='_blank' rel="noopener noreferrer">Visit Beta Site</a>
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                <a className={'CPHHA'} href="https://cph-3d-digital-herbarium.firebaseapp.com/" target='_blank' rel="noopener noreferrer">Visit Responsive Site</a>
-              </p>
+              <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
+                <p><a className={'CPHHA'} href="https://nrs-projects.humboldt.edu/~ab632/src/html/" target='_blank' rel="noopener noreferrer">Visit Beta Site</a></p>
+                <p><a className={'CPHHA'} href="https://cph-3d-digital-herbarium.firebaseapp.com/" target='_blank' rel="noopener noreferrer">Visit Responsive Site</a></p>
+              </div>
             </div>
             <div className="image-area">
               <div className="iframe-wrapper" id="cphha-iframe">
