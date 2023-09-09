@@ -38,9 +38,9 @@ const Tellu: React.FC = () => {
                 Post about nearby campus events or sightings, or just chat with new friends!
               </p>
               <br />
-              <p>tellU uses a Firebase/Firestore backend and functions as any other social media app would, with features
+              <p>tellU acts as any other social media app would, with features
                 like account creation/deletion, direct chat messaging, text and image posting functionalities,
-                profile customization, and more!
+                profile customization, and more! The app has over 100 active users at Humboldt!
               </p>
               <br />
               <p className='p-title'>Built With:</p>
