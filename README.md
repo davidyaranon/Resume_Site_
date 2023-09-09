@@ -1,4 +1,4 @@
-# David Michael Portfolio
+# Portfolio Site
 
 This is my portfolio site containing a few of my recent projects!
 
