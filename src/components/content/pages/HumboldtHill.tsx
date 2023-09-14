@@ -9,6 +9,7 @@ import Cplusplus from '../../../assets/c++-logo.png';
 import HillLogo from '../../../assets/hill-logo.png';
 import Crow from '../../../assets/crow_logo.png';
 import ViteLogo from '../../../assets/vite-logo.png';
+import DockerLogo from '../../../assets/docker_logo.png';
 
 import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
@@ -36,18 +37,18 @@ const HumboldtHill: React.FC = () => {
               <h1>Humboldt Hill Country Club Site</h1>
               <br />
               <p>
-                Welcome to the official digital home of Humboldt Hill Country Club—a sanctuary where luxury meets natural beauty, providing an unparalleled leisure experience for our exclusive members.
+                Welcome to the official digital home of Humboldt Hill Country Club — a sanctuary where luxury meets natural beauty, providing an unparalleled leisure experience for our exclusive members. (This website is currently a work in progress).
               </p>
               <br />
               <p>
-                Browse through our array of world-class amenities, read testimonials from our esteemed members, and stay updated with our exclusive events and offerings. Hosted on AWS using a MongoDB C++ backend, React frontend.
+                Browse through our array of world-class amenities, read testimonials from our esteemed members, and stay updated with our exclusive events and offerings. Docker container hosted on AWS using a MongoDB C++ backend and React frontend.
               </p>
               <br />
               <p className='p-title'>Built With:</p>
               <div className='stack-logos'>
                 <ul>
                   <li>
-                    <a role='button' href='https://capacitorjs.com/' target='_blank' rel="noopener noreferrer">
+                    <a role='button' href='https://cplusplus.com/' target='_blank' rel="noopener noreferrer">
                       <img alt='C++ Logo' src={Cplusplus} />
                     </a>
                   </li>
@@ -76,12 +77,17 @@ const HumboldtHill: React.FC = () => {
                       <img alt='Vite Logo' src={ViteLogo} />
                     </a>
                   </li>
+                  <li>
+                    <a role='button' href='https://www.docker.com/' target='_blank' rel="noopener noreferrer">
+                      <img alt='Docker Logo' src={DockerLogo} />
+                    </a>
+                  </li>
                 </ul>
               </div>
               <br />
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
-                <p><a className={'HumboldtHill'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">View Site</a></p>
-                <p><a className={'HumboldtHill'} href="https://github.com/tellUapp/Humboldt_Hill_Country_Club/tree/master" target='_blank' rel="noopener noreferrer">Github</a></p>
+                <p><a className={'HumboldtHill'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>View Site</a></p>
+                <p><a className={'HumboldtHill'} href="https://github.com/tellUapp/Humboldt_Hill_Country_Club/tree/main" target='_blank' rel="noopener noreferrer">Github</a></p>
               </div>
             </div>
             <div className="image-area">
