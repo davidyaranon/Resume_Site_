@@ -87,7 +87,7 @@ const HumboldtHill: React.FC = () => {
               <br />
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
                 <p><a className={'HumboldtHill'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>View Site</a></p>
-                <p><a className={'HumboldtHill'} href="https://github.com/tellUapp/Humboldt_Hill_Country_Club/tree/main" target='_blank' rel="noopener noreferrer">Github</a></p>
+                <p><a className={'HumboldtHill'} href="https://github.com/davidyaranon/Humboldt_Hill_Country_Club/tree/main" target='_blank' rel="noopener noreferrer">Github</a></p>
               </div>
             </div>
             <div className="image-area">

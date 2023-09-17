@@ -6,6 +6,7 @@ import ReactLogo from '../../../assets/react-logo.png';
 import SwiftLogo from '../../../assets/swift-logo.svg';
 import FirebaseLogo from '../../../assets/firebase-logo.svg';
 import CapacitorLogo from '../../../assets/capacitorjs-logo.svg';
+import IonicLogo from '../../../assets/ionic_loho.avif';
 
 import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
@@ -62,6 +63,11 @@ const Tellu: React.FC = () => {
                     </a>
                   </li>
                   <li>
+                    <a role='button' href='https://ionicframework.com/' target='_blank' rel="noopener noreferrer">
+                      <img alt='Ionic Logo' src={IonicLogo} />
+                    </a>
+                  </li>
+                  <li>
                     <a role='button' href='https://capacitorjs.com/' target='_blank' rel="noopener noreferrer">
                       <img alt='Capacitor Logo' src={CapacitorLogo} />
                     </a>
@@ -77,7 +83,7 @@ const Tellu: React.FC = () => {
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
                 <p><a className={'tellU'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">About Site</a></p>
                 <p> <a className={'tellU'} href="https://apps.apple.com/us/app/tellu/id6443764288?ign-itscg=30200&ign-itsct=apps_box_link" target='_blank' rel="noopener noreferrer">iOS App Store Listing</a></p>
-                <p><a className={'tellU'} href="https://github.com/tellUapp/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
+                <p><a className={'tellU'} href="https://github.com/davidyaranon/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
               </div>
             </div>
             <div className="image-area">

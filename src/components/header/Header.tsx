@@ -44,8 +44,8 @@ const Header: React.FC = () => {
           <section id='site-logo'>
             <FadeIn delay={500}>
               <div className='logo'>
-                <a role='button' aria-label='David Logo'>
-                  <img role='button' src={getLogo()} alt="David logo" draggable={false} onClick={handleMainLogoClick} />
+                <a role='button' aria-label='David Yaranon Logo'>
+                  <img role='button' src={getLogo()} alt="David Yaranon logo" draggable={false} onClick={handleMainLogoClick} />
                 </a>
               </div>
             </FadeIn>
@@ -56,14 +56,14 @@ const Header: React.FC = () => {
               <ul>
                 <FadeIn delay={750}>
                   <li>
-                    <a role='button' href='https://github.com/telluapp' target='_blank' aria-label="Visit my Github">
+                    <a role='button' href='https://github.com/davidyaranon' target='_blank' aria-label="Visit my Github">
                       <img src={Github} alt='Github logo' id='github-logo' draggable={false} />
                     </a>
                   </li>
                 </FadeIn>
                 <FadeIn delay={1000}>
                   <li>
-                    <a role='button' href='https://www.linkedin.com/in/david-michael-59652a248/' target='_blank' aria-label="Visit my LinkedIn">
+                    <a role='button' href='https://www.linkedin.com/in/david-yaranon-59652a248/' target='_blank' aria-label="Visit my LinkedIn">
                       <img src={LinkedIn} alt='LinkedIn Logo' id='linkedin-logo' draggable={false} />
                     </a>
                   </li>
