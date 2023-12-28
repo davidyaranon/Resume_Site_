@@ -41,7 +41,7 @@ const Tellu: React.FC = () => {
               <br />
               <p>tellU acts as any other social media app would, with features
                 like account creation/deletion, direct chat messaging, text and image posting functionalities,
-                profile customization, and more! The app has over 100 active users at Humboldt!
+                profile customization, and more!
               </p>
               <br />
               <p className='p-title'>Built With:</p>

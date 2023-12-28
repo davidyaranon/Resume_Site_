@@ -9,6 +9,7 @@ import AWSLambdaLogo from '../../../assets/lambda.png';
 import SwiftLogo from '../../../assets/swift-logo.svg';
 import CapacitorLogo from '../../../assets/capacitorjs-logo.svg';
 import IonicLogo from '../../../assets/ionic_loho.avif';
+import HumspotLogo from '../../../assets/Humspot.png';
 
 import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
@@ -75,7 +76,7 @@ const Humspot: React.FC = () => {
                     </a>
                   </li>
                   <li>
-                    <a role='button' href='https://https://aws.amazon.com/' target='_blank' rel="noopener noreferrer">
+                    <a role='button' href='https://aws.amazon.com/' target='_blank' rel="noopener noreferrer">
                       <img alt='David Yaranon - AWS Logo' src={AWSLogo} />
                     </a>
                   </li>
@@ -94,8 +95,8 @@ const Humspot: React.FC = () => {
               </div>
             </div>
             <div className="image-area">
-              <div className="iframe-wrapper" id="humspot-page-iframe-wrapper">
-                <img className='small-width' id='HumspotLogo' style={{ borderRadius: '7.5px' }} draggable={false} src={''} alt="David Yaranon - Humspot App Logo" />
+              <div className="iframe-wrapper" id="tellu-page-iframe-wrapper">
+                <img style={{ borderRadius: '7.5px' }} draggable={false} src={HumspotLogo} alt="David Yaranon - Humspot App Logo" />
               </div>
             </div>
           </div>
