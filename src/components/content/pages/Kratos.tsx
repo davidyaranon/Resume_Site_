@@ -42,8 +42,8 @@ const Kratos = () => {
                 <li className='task-list'>Working with static analysis tool to debug C/C++ embedded software</li>
                 <li className='task-list'>Writing unit tests for C++ vehicle code using catch2 framework and incorporated into Microsoft Visual Studio</li>
                 <li className='task-list'>Writing Bash/PowerShell scripts to automate testing of flight code and incorporated into Bamboo</li>
-                <li className='task-list'>Led sprint meetings for multiple teams and projects; handled other DevOps tasks.</li>
-                <li className='task-list'>Used MATLAB to perform flight simulations</li>
+                <li className='task-list'>Leading sprint meetings for multiple teams and projects; handled other DevOps tasks.</li>
+                <li className='task-list'>Using MATLAB to perform flight simulations</li>
               </ul>
               <br />
               <p className='p-title'>Tools used:</p>
@@ -51,37 +51,37 @@ const Kratos = () => {
                 <ul>
                   <li>
                     <a role='button' href='https://cplusplus.com/' target='_blank' rel="noopener noreferrer">
-                      <img alt='C++ Logo' src={cplusplus_logo} />
+                      <img alt='David Yaranon - C++ Logo' src={cplusplus_logo} />
                     </a>
                   </li>
                   <li>
                     <a role='button' href='https://visualstudio.microsoft.com/' target='_blank' rel="noopener noreferrer">
-                      <img alt='Visual Studio Logo' src={Visualstudio_Logo} />
+                      <img alt='David Yaranon - Visual Studio Logo' src={Visualstudio_Logo} />
                     </a>
                   </li>
                   <li>
                     <a role='button' href='https://www.mathworks.com/' target='_blank' rel="noopener noreferrer">
-                      <img alt='Matlab Logo' src={Matlab_Logo} />
+                      <img alt='David Yaranon - Matlab Logo' src={Matlab_Logo} />
                     </a>
                   </li>
                   <li>
                     <a role='button' href='https://www.sourcetreeapp.com/' target='_blank' rel="noopener noreferrer">
-                      <img alt='Sourcetree Logo' src={Sourcetree_Logo} />
+                      <img alt='David Yaranon - Sourcetree Logo' src={Sourcetree_Logo} />
                     </a>
                   </li>
                   <li>
                     <a role='button' href='https://www.atlassian.com/software/jira' target='_blank' rel="noopener noreferrer">
-                      <img alt='Jira Logo' src={Jira_Logo} />
+                      <img alt='David Yaranon - Jira Logo' src={Jira_Logo} />
                     </a>
                   </li>
                   <li>
                     <a role='button' href='https://bitbucket.org/product' target='_blank' rel="noopener noreferrer">
-                      <img alt='Bitbucket Logo' src={Bitbucket_Logo} />
+                      <img alt='David Yaranon - Bitbucket Logo' src={Bitbucket_Logo} />
                     </a>
                   </li>
                   <li>
                     <a role='button' href='https://learn.microsoft.com/en-us/powershell/' target='_blank' rel="noopener noreferrer">
-                      <img alt='Powershell Logo' src={Powershell_Logo} />
+                      <img alt='David Yaranon - Powershell Logo' src={Powershell_Logo} />
                     </a>
                   </li>
                 </ul>
@@ -93,9 +93,13 @@ const Kratos = () => {
             </div>
             <div className="image-area">
               <div className="iframe-wrapper" id="kratos-page-iframe-wrapper">
-                <img className='small-width' draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="Kratos Logo" />
+                <a href='https://www.kratosdefense.com/' target='_blank' rel="noopener noreferrer">
+                  <img className='small-width' draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={KratosLogo} alt="David Yaranon - Kratos Logo" />
+                </a>
                 <div style={{ height: "5vh" }} />
-                <img className='small-width' draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="Kratos Logo" />
+                <a href='https://www.kratosdefense.com/' target='_blank' rel="noopener noreferrer">
+                  <img className='small-width' draggable={false} id='kratosLogo' style={{ borderRadius: '7.5px' }} src={XQ58_Logo} alt="David Yaranon - Kratos Logo" />
+                </a>
               </div>
             </div>
           </div>

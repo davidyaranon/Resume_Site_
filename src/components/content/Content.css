@@ -1,18 +1,15 @@
 .main-body {
   margin: 0;
   padding: 0;
-  min-width: 250px;
+  min-width: 250px; /* adjust as needed */
   overflow: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* height: 100vh; */
-  height: auto;
+  justify-content: flex-start;
+  width: 100%; /* fluid width */
   padding-top: 10vh;
   padding-bottom: 0.5vh;
   margin-bottom: 10vh;
-  justify-content: flex-start;
-  /* margin-bottom: 100px; */
 }
 
 
@@ -22,6 +19,13 @@
   overflow: auto;
   scroll-snap-type: x mandatory;
   height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 .scroll-container>* {
@@ -75,18 +79,18 @@
   background: linear-gradient(to right, #61dbfb, #c3f3ff);
 }
 
-.scroll-container>#HumboldtHillPage {
+.scroll-container>#HumspotPage {
   position: relative;
 }
 
-.scroll-container>#HumboldtHillPage::after {
+.scroll-container>#HumspotPage::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   height: 2px;
-  background: linear-gradient(to right, #4b590e, #98a120);
+  background: linear-gradient(to right, #28966e, #7dbba4);
 }
 
 .scroll-container>#cphhaPage {

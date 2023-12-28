@@ -1,10 +1,12 @@
+
+
 import './Page.css';
 
-import tellULogo from '../../../assets/tellU.png';
 import TypescriptLogo from '../../../assets/typescript-logo.png';
 import ReactLogo from '../../../assets/react-logo.png';
+import AWSLogo from '../../../assets/aws-loho.png';
+import AWSLambdaLogo from '../../../assets/lambda.png';
 import SwiftLogo from '../../../assets/swift-logo.svg';
-import FirebaseLogo from '../../../assets/firebase-logo.svg';
 import CapacitorLogo from '../../../assets/capacitorjs-logo.svg';
 import IonicLogo from '../../../assets/ionic_loho.avif';
 
@@ -14,13 +16,13 @@ import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 import usePageVisibility from '../../hooks/usePageVisibility';
 import { handleClick } from './Click';
 
-const Tellu: React.FC = () => {
+const Humspot: React.FC = () => {
 
   const context = useMyContext();
 
   const handleVisibilityChange = (isVisible: boolean) => {
     if (isVisible) {
-      context.setCurrPage('tellU');
+      context.setCurrPage('Humspot');
     }
   }
   const pageRef = usePageVisibility(handleVisibilityChange);
@@ -28,20 +30,20 @@ const Tellu: React.FC = () => {
   return (
     <>
       <FadeIn delay={1500} transitionDuration={750}>
-        <div ref={pageRef} className="component-container" id='tellU'>
+        <div ref={pageRef} className="component-container" id='Humspot'>
           <div className="content-wrapper">
             <div className="text-area">
-              <h1>tellU Mobile App</h1>
+              <h1>Humspot App</h1>
               <br />
               <p>
-                tellU is a social media app for university students, available on iOS and Android.
-                The tellU app puts students into chat rooms with their fellow university students.
-                Post about nearby campus events or sightings, or just chat with new friends!
+                Welcome to Humspot, your ultimate guide to all things exciting in Humboldt County!
+                This app is your digital passport to discovering and exploring the best events,
+                most intriguing places, and must-see attractions.
               </p>
               <br />
-              <p>tellU acts as any other social media app would, with features
-                like account creation/deletion, direct chat messaging, text and image posting functionalities,
-                profile customization, and more! The app has over 100 active users at Humboldt!
+              <p>
+                Dive into a rich collection of experiences, from vibrant festivals and events to breathtaking
+                natural sites and cultural landmarks. Humspot brings Humboldt County to your fingertips!
               </p>
               <br />
               <p className='p-title'>Built With:</p>
@@ -50,11 +52,6 @@ const Tellu: React.FC = () => {
                   <li>
                     <a role='button' href='https://react.dev/' target='_blank' rel="noopener noreferrer">
                       <img alt='David Yaranon - React Logo' src={ReactLogo} />
-                    </a>
-                  </li>
-                  <li>
-                    <a role='button' href='https://firebase.google.com/' target='_blank' rel="noopener noreferrer">
-                      <img alt='David Yaranon - Firebase Logo' src={FirebaseLogo} />
                     </a>
                   </li>
                   <li>
@@ -77,19 +74,28 @@ const Tellu: React.FC = () => {
                       <img alt='David Yaranon - Swift Logo' src={SwiftLogo} />
                     </a>
                   </li>
+                  <li>
+                    <a role='button' href='https://https://aws.amazon.com/' target='_blank' rel="noopener noreferrer">
+                      <img alt='David Yaranon - AWS Logo' src={AWSLogo} />
+                    </a>
+                  </li>
+                  <li>
+                    <a role='button' href='https://aws.amazon.com/lambda/' target='_blank' rel="noopener noreferrer">
+                      <img alt='David Yaranon - AWS Lambda Logo' src={AWSLambdaLogo} />
+                    </a>
+                  </li>
                 </ul>
               </div>
               <br />
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
-                <p><a className={'tellU'} href="https://tellu-app.com" target='_blank' rel="noopener noreferrer">About Site</a></p>
-                <p> <a className={'tellU'} href="https://apps.apple.com/us/app/tellu/id6443764288?ign-itscg=30200&ign-itsct=apps_box_link" target='_blank' rel="noopener noreferrer">iOS App Store Listing</a></p>
-                <p> <a className={'tellU'} href="https://play.google.com/store/apps/details?id=com.tellU.v3.quantum&pli=1" target='_blank' rel="noopener noreferrer">Google Play Store Listing</a></p>
-                <p><a className={'tellU'} href="https://github.com/davidyaranon/tellU" target='_blank' rel="noopener noreferrer">Github</a></p>
+                <p><a className={'Humspot'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>About Site</a></p>
+                <p><a className={'Humspot'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>iOS App Store Listing</a></p>
+                <p><a className={'Humspot'} href="https://github.com/Humspot/Humspot/tree/HUMSPOT-68-iOS-version-of-app" target='_blank' rel="noopener noreferrer">Github</a></p>
               </div>
             </div>
             <div className="image-area">
-              <div className="iframe-wrapper" id="tellu-page-iframe-wrapper">
-                <img style={{ borderRadius: '7.5px' }} draggable={false} src={tellULogo} alt="David Yaranon - tellU App Logo" />
+              <div className="iframe-wrapper" id="humspot-page-iframe-wrapper">
+                <img className='small-width' id='HumspotLogo' style={{ borderRadius: '7.5px' }} draggable={false} src={''} alt="David Yaranon - Humspot App Logo" />
               </div>
             </div>
           </div>
@@ -97,12 +103,12 @@ const Tellu: React.FC = () => {
         <br />
 
       </FadeIn>
-      <div className="next-page-button" id="tellu-arrow-buttons-container">
-        <button className='tellu-arrow-buttons' onClick={(e) => { handleClick(e, 'CPHHA') }}>&larr; Experience</button>
-        <button className='tellu-arrow-buttons' onClick={(e) => { handleClick(e, 'Humspot') }}>More &rarr;</button>
+      <div className="next-page-button" id="humspot-arrow-buttons-container">
+        <button className='humspot-arrow-buttons' onClick={(e) => { handleClick(e, 'tellU') }}>&larr; tellU</button>
+        <button className='humspot-arrow-buttons' disabled={true} style={{ opacity: "0.5" }} onClick={(e) => { handleClick(e, 'MORE') }}>More &rarr;</button>
       </div>
     </>
   )
 };
 
-export default Tellu;
+export default Humspot;

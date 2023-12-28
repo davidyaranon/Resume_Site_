@@ -14,7 +14,7 @@ import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 import { useMyContext } from '../../my-context';
 
 const logos: Record<string, string> = {
-  'Home': DLogo, 'tellU': DLogoTellU, 'Kratos': DLogoKratos, 'CPHHA': DLogoCphha, 'HumboldtHill': DLogoCart
+  'Home': DLogo, 'tellU': DLogoTellU, 'Kratos': DLogoKratos, 'CPHHA': DLogoCphha, 'Humspot': DLogoCart
 };
 
 const Header: React.FC = () => {
@@ -64,14 +64,14 @@ const Header: React.FC = () => {
                 <FadeIn delay={1000}>
                   <li>
                     <a role='button' href='https://www.linkedin.com/in/david-yaranon-59652a248/' target='_blank' aria-label="Visit my LinkedIn">
-                      <img src={LinkedIn} alt='LinkedIn Logo' id='linkedin-logo' draggable={false} />
+                      <img src={LinkedIn} alt='David Yaranon - LinkedIn' id='linkedin-logo' draggable={false} />
                     </a>
                   </li>
                 </FadeIn>
                 <FadeIn delay={1250}>
                   <li>
                     <a role='button' href='mailto:dy45@humboldt.edu' target='_blank' aria-label="Contact me">
-                      <img src={Gmail} alt='Gmail logo' id='gmail-logo' draggable={false} />
+                      <img src={Gmail} alt="David Yaranon's Gmail" id='gmail-logo' draggable={false} />
                     </a>
                   </li>
                 </FadeIn>

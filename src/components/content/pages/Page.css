@@ -123,7 +123,7 @@
   transform: translateY(-50px);
 }
 
-.image-area img#humboldtHillLogo {
+.image-area img#HumspotLogo {
   scale: 1.125;
   padding-left: 12.5px;
   padding-right: 12.5px;
@@ -180,25 +180,25 @@ h1 {
   z-index: -1;
 }
 
-.text-area a.HumboldtHill {
+.text-area a.Humspot {
   position: relative;
   text-decoration: none;
   color: inherit;
 }
 
-.text-area a.HumboldtHill:hover {
+.text-area a.Humspot:hover {
   opacity: 0.75;
   scale: 1.05;
 }
 
-.text-area a.HumboldtHill::after {
+.text-area a.Humspot::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   height: 2px;
-  background: linear-gradient(to right, #4b590e, #98a120);
+  background: linear-gradient(to right, #28966e, #7dbba4);
   z-index: -1;
 }
 
@@ -219,7 +219,7 @@ h1 {
   overflow: visible;
 }
 
-.iframe-wrapper#humboldt-hill-page-iframe-wrapper {
+.iframe-wrapper#humspot-page-iframe-wrapper {
   overflow: visible;
 }
 
@@ -306,7 +306,7 @@ ul li.task-list {
   transform: translate(0%, -125%);
 }
 
-.next-page-button#humboldt-hill-arrow-buttons-container {
+.next-page-button#humspot-arrow-buttons-container {
   transform: translate(0%, -125%);
 }
 
@@ -369,12 +369,12 @@ ul li.task-list {
   transform: translateY(-2.5px);
 }
 
-.next-page-button button.humboldt-hill-arrow-buttons {
-  background-color: #4b590e;
+.next-page-button button.humspot-arrow-buttons {
+  background-color: #7dbba4;
 }
 
-.next-page-button button.humboldt-hill-arrow-buttons:hover {
-  background-color: #98a120;
+.next-page-button button.humspot-arrow-buttons:hover {
+  background-color: #28966e;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-2.5px);
 }
@@ -434,7 +434,7 @@ ul li.task-list {
     transform: translateY(0px);
   }
 
-  .image-area img#humboldtHillLogo {
+  .image-area img#HumspotLogo {
     transform: translateY(0px);
   }
 }

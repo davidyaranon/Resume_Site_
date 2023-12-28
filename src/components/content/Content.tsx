@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Kratos from './pages/Kratos';
 import CPHHA from './pages/CPHHA';
 import Tellu from './pages/Tellu';
-import HumboldtHill from './pages/HumboldtHill';
+import Humspot from './pages/Humspot';
 
 const Content: React.FC = () => {
 
@@ -27,8 +27,8 @@ const Content: React.FC = () => {
           <Tellu />
         </div>
         <br />
-        <div id='HumboldtHillPage'>
-          <HumboldtHill />
+        <div id='HumspotPage'>
+          <Humspot />
         </div>
         <br />
       </div>

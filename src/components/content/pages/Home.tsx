@@ -33,7 +33,7 @@ const Home: React.FC = () => {
               <br />
               <p>
                 Outside of work and school I have a passion for photography and filmmaking. My current camera is a Panasonic Lumix S5 📸
-                Checkout my <a className={'Home'} href="https://www.youtube.com/@neonglowproductions_" target='_blank' rel="noopener noreferrer">YouTube</a> channel!
+                Checkout my <a className={'Home'} href="https://www.youtube.com/@davidyaranon" target='_blank' rel="noopener noreferrer">YouTube</a> channel!
               </p>
               <br />
               <p>
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
             </div>
             <div className="image-area">
               <div className="iframe-wrapper" id="home-page-iframe-wrapper">
-                <img src={David} draggable={false} alt="Image of David" />
+                <img src={David} draggable={false} alt="Image of David Yaranon" />
               </div>
             </div>
           </div>
