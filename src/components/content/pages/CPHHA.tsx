@@ -3,7 +3,7 @@ import './Page.css';
 import { useMyContext } from '../../../my-context';
 import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 
-import HTML from '../../../assets/HTML-logo.png';
+import Tailwind from '../../../assets/tailwind.png';
 import Javascript from '../../../assets/JavaScript-logo.png';
 import Php from '../../../assets/php-logo.png';
 import NextJS from '../../../assets/nextjs-logo.webp';
@@ -66,7 +66,7 @@ const CPHHA: React.FC = () => {
                   </li>
                   <li>
                     <a role='button' href='' target='_blank' rel="noopener noreferrer">
-                      <img id='html-logo' alt='David Yaranon - HTML Logo' src={HTML} />
+                      <img alt='David Yaranon - Tailwind CSS Logo' src={Tailwind} />
                     </a>
                   </li>
                   <li>

@@ -6,7 +6,7 @@ import TypescriptLogo from '../../../assets/typescript-logo.png';
 import ReactLogo from '../../../assets/react-logo.png';
 import AWSLogo from '../../../assets/aws-loho.png';
 import AWSLambdaLogo from '../../../assets/lambda.png';
-import SwiftLogo from '../../../assets/swift-logo.svg';
+import XCodeLogo from '../../../assets/xcode_logo.png';
 import CapacitorLogo from '../../../assets/capacitorjs-logo.svg';
 import IonicLogo from '../../../assets/ionic_loho.avif';
 import HumspotLogo from '../../../assets/Humspot.png';
@@ -71,8 +71,8 @@ const Humspot: React.FC = () => {
                     </a>
                   </li>
                   <li>
-                    <a role='button' href='https://www.swift.org/' target='_blank' rel="noopener noreferrer">
-                      <img alt='David Yaranon - Swift Logo' src={SwiftLogo} />
+                    <a role='button' href='https://developer.apple.com/xcode/' target='_blank' rel="noopener noreferrer">
+                      <img alt='David Yaranon - Xcode Logo' src={XCodeLogo} />
                     </a>
                   </li>
                   <li>
@@ -89,7 +89,7 @@ const Humspot: React.FC = () => {
               </div>
               <br />
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
-                <p><a className={'Humspot'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>About Site</a></p>
+                <p><a className={'Humspot'} href="https://humspotapp.com" target='_blank' rel="noopener noreferrer">About Site (In Progress) </a></p>
                 <p><a className={'Humspot'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>iOS App Store Listing</a></p>
                 <p><a className={'Humspot'} href="https://github.com/Humspot/Humspot/tree/HUMSPOT-68-iOS-version-of-app" target='_blank' rel="noopener noreferrer">Github</a></p>
               </div>

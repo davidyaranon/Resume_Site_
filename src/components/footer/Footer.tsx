@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer: React.FC = () => {
   return (
     <footer>
-      <p>©2023 David Yaranon</p>
+      <p>©2024 David Yaranon</p>
     </footer>
   )
 };
