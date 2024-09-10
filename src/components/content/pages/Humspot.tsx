@@ -89,9 +89,10 @@ const Humspot: React.FC = () => {
               </div>
               <br />
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
-                <p><a className={'Humspot'} href="https://humspotapp.com" target='_blank' rel="noopener noreferrer">About Site (In Progress) </a></p>
-                <p><a className={'Humspot'} /* href="https://tellu-app.com" target='_blank' rel="noopener noreferrer" */ style={{ opacity: 0.5 }}>iOS App Store Listing</a></p>
-                <p><a className={'Humspot'} href="https://github.com/Humspot/Humspot/tree/HUMSPOT-68-iOS-version-of-app" target='_blank' rel="noopener noreferrer">Github</a></p>
+                <p><a className={'Humspot'} href="https://humspotapp.com" target='_blank' rel="noopener noreferrer">About Site </a></p>
+                <p><a className={'Humspot'} href="https://apps.apple.com/us/app/humspot/id6481420428" target='_blank' rel="noopener noreferrer">iOS App Store Listing</a></p>
+                <p><a className={'Humspot'} href="https://apps.apple.com/us/app/humspot/id6481420428" target='_blank' rel="noopener noreferrer">Google Play Listing</a></p>
+                <p><a className={'Humspot'} href="https://github.com/Humspot/Humspot/tree/ios_version" target='_blank' rel="noopener noreferrer">Github</a></p>
               </div>
             </div>
             <div className="image-area">

@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.humspot",
+      "sha256_cert_fingerprints": [
+        "8F:D2:B4:F6:AC:0E:69:1C:E7:B4:B3:DA:8C:8B:2C:0B:19:AA:48:2E:FF:AB:81:34:BD:5F:05:EB:40:E6:83:07"
+      ]
+    }
+  }
+]

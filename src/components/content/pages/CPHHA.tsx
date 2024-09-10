@@ -84,7 +84,8 @@ const CPHHA: React.FC = () => {
               <br />
               <div style={{ display: "flex", flexDirection: "row", gap: "25px" }}>
                 <p><a className={'CPHHA'} href="https://3dherbarium.org/" target='_blank' rel="noopener noreferrer">Visit Site</a></p>
-                <p><a className={'CPHHA'} href="https://cph-3d-digital-herbarium.firebaseapp.com/" target='_blank' rel="noopener noreferrer">Visit Test Concept Site</a></p>
+                <p><a className={'CPHHA'} href="https://github.com/3DExhibits4Learning" target='_blank' rel="noopener noreferrer">Github</a></p>
+                {/* <p><a className={'CPHHA'} href="https://cph-3d-digital-herbarium.firebaseapp.com/" target='_blank' rel="noopener noreferrer">Visit Test Concept Site</a></p> */}
               </div>
             </div>
             <div className="image-area">
