@@ -28,7 +28,8 @@ const Home: React.FC = () => {
               <h1>Hello, I'm David ✋🏽</h1>
               <br />
               <p>
-                Computer Science graduate from Cal Poly Humboldt. I find myself immersed in the world of React and mobile application development, but enjoy all aspects of software engineering. My goal is to build tangible applications that can influence and help users around the world.
+                Computer Science graduate from Cal Poly Humboldt. I find myself immersed in the world of React and mobile application development, but enjoy all aspects of software engineering.
+                My goal is to build tangible applications that can influence and help users around the world. You can view my current resume <a target='_blank' rel="noopener noreferrer" className="Home" href="David_Y__Resume.pdf">here</a>.
               </p>
               <br />
               <p>

@@ -79,6 +79,20 @@
   background: linear-gradient(to right, #61dbfb, #c3f3ff);
 }
 
+.scroll-container>#sculooPage {
+  position: relative;
+}
+
+.scroll-container>#sculooPage::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #FFBD13, #C2941F);
+}
+
 .scroll-container>#HumspotPage {
   position: relative;
 }

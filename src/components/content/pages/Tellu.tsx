@@ -98,7 +98,7 @@ const Tellu: React.FC = () => {
 
       </FadeIn>
       <div className="next-page-button" id="tellu-arrow-buttons-container">
-        <button className='tellu-arrow-buttons' onClick={(e) => { handleClick(e, 'CPHHA') }}>&larr; Experience</button>
+        <button className='tellu-arrow-buttons' onClick={(e) => { handleClick(e, 'sculoo') }}>&larr; Experience</button>
         <button className='tellu-arrow-buttons' onClick={(e) => { handleClick(e, 'Humspot') }}>More &rarr;</button>
       </div>
     </>

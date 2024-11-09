@@ -180,6 +180,29 @@ h1 {
   z-index: -1;
 }
 
+
+.text-area a.sculoo {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-area a.sculoo:hover {
+  opacity: 0.75;
+  scale: 1.05;
+}
+
+.text-area a.sculoo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: linear-gradient(to right, #FFBD13, #C2941F);
+  z-index: -1;
+}
+
 .text-area a.Humspot {
   position: relative;
   text-decoration: none;
@@ -217,6 +240,10 @@ h1 {
 
 .iframe-wrapper#kratos-page-iframe-wrapper {
   overflow: visible;
+}
+
+.iframe-wrapper#sculoo-page-iframe-wrapper {
+  /* transform: translateY(25px); */
 }
 
 .iframe-wrapper#humspot-page-iframe-wrapper {
@@ -306,6 +333,10 @@ ul li.task-list {
   transform: translate(0%, -125%);
 }
 
+.next-page-button#sculoo-arrow-buttons-container {
+  transform: translate(0%, -125%);
+}
+
 .next-page-button#humspot-arrow-buttons-container {
   transform: translate(0%, -115%);
 }
@@ -347,6 +378,19 @@ ul li.task-list {
   background-color: #291313;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-30px);
+}
+
+.next-page-button button.sculoo-arrow-buttons {
+  background-color: #FFBD13;
+  transform: translateY(35px);
+
+}
+
+.next-page-button button.sculoo-arrow-buttons:hover {
+  background-color: #C2941F;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(32.5px);
+
 }
 
 .next-page-button button.cphha-arrow-buttons {

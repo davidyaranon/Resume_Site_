@@ -104,7 +104,7 @@ const CPHHA: React.FC = () => {
       </FadeIn>
       <div className="next-page-button" id='cphha-arrow-buttons-container'>
         <button className='cphha-arrow-buttons' onClick={(e) => { handleClick(e, 'Kratos') }}>&larr; Kratos</button>
-        <button className='cphha-arrow-buttons' onClick={(e) => { handleClick(e, 'tellU') }}>Projects &rarr;</button>
+        <button className='cphha-arrow-buttons' onClick={(e) => { handleClick(e, 'sculoo') }}>More &rarr;</button>
       </div>
     </>
   )

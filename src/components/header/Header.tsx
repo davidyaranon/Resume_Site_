@@ -5,6 +5,7 @@ import LinkedIn from '../../assets/LinkedIn.png';
 import Gmail from '../../assets/gmail.png';
 import DLogo from '../../assets/d-logo-blue.png';
 import DLogoTellU from '../../assets/d-logo-tellu.png';
+import DLogoSculoo from '../../assets/d-logo-sculoo.png';
 import DLogoKratos from '../../assets/d-logo-red.png';
 import DLogoCphha from '../../assets/d-logo-cphha.png';
 import DLogoCart from '../../assets/d-logo-cart.png';
@@ -14,7 +15,7 @@ import FadeIn from '@rcnoverwatcher/react-fade-in-react-18/src/FadeIn';
 import { useMyContext } from '../../my-context';
 
 const logos: Record<string, string> = {
-  'Home': DLogo, 'tellU': DLogoTellU, 'Kratos': DLogoKratos, 'CPHHA': DLogoCphha, 'Humspot': DLogoCart
+  'Home': DLogo, 'tellU': DLogoTellU, 'Kratos': DLogoKratos, 'CPHHA': DLogoCphha, 'Humspot': DLogoCart, 'sculoo': DLogoSculoo
 };
 
 const Header: React.FC = () => {
