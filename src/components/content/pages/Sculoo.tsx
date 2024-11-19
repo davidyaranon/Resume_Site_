@@ -3,6 +3,7 @@ import "./Page.css";
 import TypescriptLogo from "../../../assets/typescript-logo.png";
 import ReactLogo from "../../../assets/react-logo.png";
 import NextJS from "../../../assets/nextjs-logo.webp";
+import Tailwind from '../../../assets/tailwind.png';
 import sculooLogo from "../../../assets/Sculoo.png";
 
 import { useMyContext } from "../../../my-context";
@@ -78,6 +79,11 @@ const Sculoo: React.FC = () => {
                       />
                     </a>
                   </li>
+                  <li>
+                    <a role='button' href='' target='_blank' rel="noopener noreferrer">
+                      <img alt='David Yaranon - Tailwind CSS Logo' src={Tailwind} />
+                    </a>
+                  </li>
                 </ul>
               </div>
               <br />
@@ -94,7 +100,7 @@ const Sculoo: React.FC = () => {
                     Visit Site
                   </a>
                 </p>
-                <p>
+                {/* <p>
                   <a
                     className={"sculoo"}
                     href="https://github.com/maxlingenfelter/StudentWebApp/"
@@ -103,7 +109,7 @@ const Sculoo: React.FC = () => {
                   >
                     Github
                   </a>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="image-area">

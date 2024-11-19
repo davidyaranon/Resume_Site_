@@ -71,7 +71,7 @@ const Header: React.FC = () => {
                 </FadeIn>
                 <FadeIn delay={1250}>
                   <li>
-                    <a role='button' href='mailto:dy45@humboldt.edu' target='_blank' aria-label="Contact me">
+                    <a role='button' href='mailto:dyaranon4754@sdsu.edu' target='_blank' aria-label="Contact me">
                       <img src={Gmail} alt="David Yaranon's Gmail" id='gmail-logo' draggable={false} />
                     </a>
                   </li>
